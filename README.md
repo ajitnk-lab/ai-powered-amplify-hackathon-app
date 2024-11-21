@@ -23,6 +23,32 @@ The below diagram shows the architecture of the App - A react front-end utilizes
 
 
 ## Setup instructions
+Clone this repo
+https://github.com/ajitnk-lab/ai-powered-amplify-hackathon-app?tab=readme-ov-file
+
+Install dependencies
+npm install
+
+Install the Amplify CLI globally
+npm install -g @aws-amplify/cli
+
+Initialize Amplify 
+amplify init --y
+
+Install Amplify javascript libraries
+npm install --save aws-amplify@4.2.9 @aws-amplify/ui-react@1.2.15
+
+Add Amplify Categories
+amplify add auth
+amplify add api
+amplify add predictions
+amplify add hosting
+amplify push
+amplify publish
+
+
+Cleanup
+amplify delete
 
 
 ## Security
