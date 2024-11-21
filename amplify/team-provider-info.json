@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smartshoppinglist-dev-8cd64-authRole",
+      "UnauthRoleArn": "arn:aws:iam::253513219195:role/amplify-smartshoppinglist-dev-8cd64-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::253513219195:role/amplify-smartshoppinglist-dev-8cd64-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-smartshoppinglist-dev-8cd64-deployment",
+      "UnauthRoleName": "amplify-smartshoppinglist-dev-8cd64-unauthRole",
+      "StackName": "amplify-smartshoppinglist-dev-8cd64",
+      "StackId": "arn:aws:cloudformation:ap-south-1:253513219195:stack/amplify-smartshoppinglist-dev-8cd64/3ae01330-a7fe-11ef-af34-0a3d143024bf",
+      "AmplifyAppId": "d3nolp5jzwoq65"
+    },
+    "categories": {
+      "auth": {
+        "smartshoppinglist76bbfae5": {}
+      },
+      "api": {
+        "smartshoppinglist": {}
+      },
+      "predictions": {
+        "identifyLabels149ab3e7": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3nolp5jzwoq65",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

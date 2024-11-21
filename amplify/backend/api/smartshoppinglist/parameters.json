@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "smartshoppinglist",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authsmartshoppinglist76bbfae5",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
