@@ -1,6 +1,19 @@
-## Build an AI Powered App
+## Build an AI Powered App Using AWS Amplify
 
+
+## Objective
 This application harnesses advanced Computer Vision technology to automatically identify items within supported images, thereby enhancing human productivity and reducing the likelihood of human error.
+
+## Technology Stack
+Amplify, AppSync, DynamoDB, Cognito and Rekognition.
+
+## Innovation
+A cutting-edge computer vision solution powered by AWS Amplify that leverages advanced machine learning algorithms to automatically detect and classify items within images. This application transforms visual data into actionable insights, demonstrating the potential of AI-driven image recognition technology
+
+
+## AWS Amplify Hosting URL for the App 
+https://dev.d3nolp5jzwoq65.amplifyapp.com/
+
 
 ## Architecture 
 
@@ -8,32 +21,9 @@ The below diagram shows the architecture of the App - A react front-end utilizes
 
 ![Shopping List Architecture](public/Architecture.png)
 
-## Get Started by cloning the repo
 
-`git clone https://github.com/aws-samples/smart-shopping-list`
+## Setup instructions
 
-
-## Install the necessary npm packages
-
-`npm install`
-
-Now you will have a frontend that includes just the React front-end. We are using React-Material-UI components to style the front-end. This is just boiler plate code without any backend integrations into AWS. In the repo, you fill find the files 'predictions.js' and 'db.js' under src/api folders. We will add code here after deploying the necessary backends using Amplify 
-
-Run `npm start` to see the UI frontend
-
-## Install Amplify CLI, Initialize the project and add necessary libraries
-
-**Install the Amplify CLI globally**
-
-`npm install -g @aws-amplify/cli`
-
-
-**Initialize Amplify in the project from the root folder**
-
-`amplify init --y` to initialize the amplify project with default parameters and AWS default profile
-
-
-Have fun and build on !
 
 ## Security
 
