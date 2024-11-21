@@ -2,10 +2,6 @@
 
 This application harnesses advanced Computer Vision technology to automatically identify items within supported images, thereby enhancing human productivity and reducing the likelihood of human error.
 
-
-![Shopping List Frontend](public/shopping-list.png)
-
-
 ## Architecture 
 
 The below diagram shows the architecture of the App - A react front-end utilizes AppSync graphql server to create, read, delete items to a DynamoDB database. We also have an integration with Amazon Rekognition which provides Computer Vision capabilities to detect objects in images that are used as labels to create the shopping list items. 
